@@ -1,0 +1,26 @@
+.back-crucero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+.card-crucero {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+.img-crucero {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    .card-crucero {
+        width: 50%; 
+    }
+}
