@@ -35,6 +35,8 @@ export const Cruceros = () => {
     }, []);
   
     return (
+      <>
+      <h1 className='title-cruceros-img'>NUESTRO PRODUCTO</h1>
       <div ref={containerRef} className={`back-crucero ${isVisible ? 'visible' : ''}`}>
         {isVisible && (
           <>
@@ -53,6 +55,7 @@ export const Cruceros = () => {
           </>
         )}
       </div>
+      </>
     );
   };
   

@@ -19,3 +19,18 @@
     text-transform: uppercase;
     text-shadow: 0px 0px 5px #508AD3;
   }
+
+  @media only screen and (max-width: 950px) {
+    .title-img {
+      color: white;
+      font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  .title-img {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+}

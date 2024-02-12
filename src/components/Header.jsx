@@ -4,7 +4,7 @@ import crucero1 from '../assets/crucero1.jpg';
 import crucero2 from '../assets/crucero2.jpg';
 import crucero3 from '../assets/crucero3.jpg';
 import crucero4 from '../assets/crucero4.jpg';
-import Buttonc from '../ButtonC';
+import Buttonc from './Buttonc';
 
 const Header = () => {
   const images = [
@@ -19,16 +19,16 @@ const Header = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Cambia el valor a 3000 para cambiar de imagen cada 3 segundos
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images]);
 
   return (
     <div
       className="background-carousel"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(1,17,38,0) 0%, rgba(1,17,38,1) 100%), ${images[index]}`,
+        backgroundImage: `linear-gradient(to bottom, rgba(1,17,38,0) 0%, #0E3066 100%), ${images[index]}`,
       }}
     >
       <div className="header-title">

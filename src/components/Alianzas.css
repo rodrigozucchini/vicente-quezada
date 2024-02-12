@@ -1,0 +1,66 @@
+.back-alianzas {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.title-alianzas {
+    color: #011126;
+    font-family: helvetica,sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 100px;
+    padding: 29px 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.back-logos-hoteles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-hoteles {
+    width: 250px;
+    margin: 20px;
+}
+
+.hoteles {
+    width: 100%;
+}
+
+.back-logos-tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-tarjeta {
+    width: 80%px;
+    margin: 20px;
+}
+
+.tarjeta {
+    width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+
+    .title-alianzas {
+        color: #011126;
+        font-family: helvetica,sans-serif;
+        font-size: 25px;
+    }
+
+}

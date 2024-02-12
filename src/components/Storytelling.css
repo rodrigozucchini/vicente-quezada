@@ -1,7 +1,7 @@
 .story {
     width: 100%;
     height: 100%;
-    background-color: #011126;
+    background-color: #0E3066;
     padding-bottom: 100px;
     padding-top: 100px;
 }
@@ -55,7 +55,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: #011126;
+        background-color: #0E3066;
     }
     .img-story {    
         width: 612px;
@@ -136,6 +136,7 @@
         margin-left: 20px;  
         margin-right: 20px; 
         font-size: 22px;
+        padding-bottom: 10px;
     }
     .story-text {
         font-size: 16px;
@@ -144,6 +145,7 @@
     }
     .story {
         padding-bottom: 50px;
+        padding-top: 10px;
     }
 }
 
@@ -151,5 +153,12 @@
     .img-story {    
         width: 302px;
         height: 472px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .img-story {    
+        width: 200px;
+        height: 300px;
     }
 }
