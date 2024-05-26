@@ -10,6 +10,7 @@ import Wave from './components/Wave'
 import Bonus from './components/Bonus';
 import { Alianzas } from './components/Alianzas';
 import Presentacion from './components/Presentacion';
+import No from '../src/components/No.jsx'
 
 
 function App() {
@@ -33,15 +34,18 @@ function App() {
           )
           : (
             <>
+              <No />
+              {/*
               <Header />
               <Presentacion />
               <Storytelling />
               <Wave />
               <Alianzas />
               {/*<Cruceros />*/}
-              <Banner />
+              {/*<Banner />
               <Bonus />
               <Whatsapp />
+              */}
             </>
           )
       }
