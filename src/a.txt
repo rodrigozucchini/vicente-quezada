@@ -1,0 +1,24 @@
+  {/*  <div>
+      {
+        loading
+          ? (
+            <div className="loader">
+              <BounceLoader color="#508AD3" size={90} loading={loading} />
+            </div>
+          )
+        : (
+            <>
+              <No />
+              <Header />
+              <Presentacion />
+              <Storytelling />
+              <Wave />
+              <Alianzas />
+              <Cruceros />
+              <Banner />
+              <Bonus />
+              <Whatsapp />
+            </>
+          )
+      }
+    </div> */}

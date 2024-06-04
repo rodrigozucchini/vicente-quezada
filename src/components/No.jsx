@@ -4,9 +4,14 @@ import './No.css'; // Opcional: si deseas agregar estilos específicos
 const UnavailableMessage = () => {
   return (
     <div className="no">
-      <h1>Este servicio ha sido suspendido debido a<br/>FALTA DE PAGO<br/></h1>
-      <p>Por favor, regularice su situación para reanudar el servicio.</p>
-      <p>Gracias.</p>
+      <h1 className="no-h1">
+        Este servicio se suspendio por
+      </h1>
+      <br/>
+      <h1 className="red-br">
+        FALTA DE PAGO A TIEMPO
+      </h1>
+      <p className="no-h1">Regularice para tener su pagina de vuelta.</p>
     </div>
   );
 }
