@@ -13,7 +13,7 @@ const UnavailableMessage = () => {
       </h1>
       <p className="no-h1">Regularice para tener su pagina de vuelta.</p>
     </div>
-  );
+  ); 
 }
 
 export default UnavailableMessage;
